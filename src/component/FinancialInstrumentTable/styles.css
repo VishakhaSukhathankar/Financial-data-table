@@ -1,0 +1,41 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Gill Sans", sans-serif;
+}
+
+th,td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  cursor: pointer;
+}
+
+caption{
+  font-size: 18px;
+}
+
+.asset-equities {
+  background-color: blue;
+  /* color: white */
+}
+
+.asset-credit {
+  background-color: green;
+  /* color: white */
+}
+
+.asset-macro {
+  background-color: white;
+}
+
+.negative-price {
+  color: red;
+}
+
+.positive-price{
+  color: black
+}
+  
